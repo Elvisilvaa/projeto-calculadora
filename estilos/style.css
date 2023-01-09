@@ -75,22 +75,27 @@ table td {
     word-wrap: break-word;
     border-bottom: 1px solid #25968a;
 }
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
-    color: #000807;
-    width: 200px;
     position: absolute;
-    font-size: 20px;
-    top: 95%;
-    left: 42%;
+    bottom: 0;
+    color: #000807;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
     background-color: #1f20202d;
     border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
 }
+
 footer a {
     color: #000807;
 }
 
 footer a:hover {
     text-decoration: underline;
-    color: rgb(133, 223, 133);
+    color: rgb(118, 206, 184);
 }
